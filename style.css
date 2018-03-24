@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.first-container {
+    text-align: center;
+    background-image: url("images/service_34.jpg");
+    background-size: cover;
+}
+
+.filter {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    padding: 100px 0;
+}
+
+.filter h1 {
+    display: inline-block;
+    border-bottom: solid 1px #fff;
+    margin: 0 0 1rem;
+    font-size: 5rem;
+}
+
+.filter p {
+    margin: 0;
+}
