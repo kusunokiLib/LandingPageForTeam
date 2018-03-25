@@ -24,3 +24,44 @@ body {
 .filter p {
     margin: 0;
 }
+
+
+.left-container {
+    float: left
+}
+
+.right-container {
+    float: right
+}
+
+.container h1 {
+    font-size: 5rem;
+}
+.container h2 {
+    font-size: 4rem;
+}
+.container h3 {
+    font-size: 3rem;
+}
+.container p {
+    font-size: 2rem;
+}
+
+.left-container {
+    text-align: center;
+    width:      50%;
+    margin:     0 auto;
+}
+.right-container {
+    text-align: center;
+    width:      50%;
+    margin:     0 auto;
+}
+
+p.left-container img {
+    width: 50%;
+}
+p.right-container img {
+    width: 50%;
+}
+
