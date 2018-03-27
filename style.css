@@ -50,18 +50,20 @@ body {
 .left-container {
     text-align: center;
     width:      50%;
+    height:     100%;
     margin:     0 auto;
 }
 .right-container {
     text-align: center;
     width:      50%;
+    height:     100%;
     margin:     0 auto;
 }
 
 p.left-container img {
-    width: 50%;
+    width:  50%;
 }
 p.right-container img {
-    width: 50%;
+    width:  50%;
 }
 
