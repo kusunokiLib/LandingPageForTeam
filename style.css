@@ -29,3 +29,44 @@ html, body {
 .first-container p {
     margin: 0;
 }
+
+
+.container h1 {
+    font-size: 5rem;
+}
+.container h2 {
+    font-size: 4rem;
+}
+.container h3 {
+    font-size: 3rem;
+}
+.container p {
+    font-size: 2rem;
+}
+
+.container {
+    display:table;
+    width:  100%;
+    height: 100%;
+}
+
+.left-container {
+    float: left;
+    width:      50%;
+    height:     100%;
+    margin:     0 auto;
+}
+.right-container {
+    float: right;
+    width:      50%;
+    height:     100%;
+    margin:     0 auto;
+}
+
+.left-container img {
+    width:  100%;
+}
+.right-container img {
+    width:  100%;
+}
+
