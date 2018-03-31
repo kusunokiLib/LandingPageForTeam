@@ -1,8 +1,17 @@
+/* general */
+html {
+  font-size: 12px;
+}
 html, body {
-    height: 100%;
-    margin: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+div {
+  box-sizing: border-box;
 }
 
+/* first container */
 .first-container {
     display:table;
     width: 100%;
@@ -30,43 +39,49 @@ html, body {
     margin: 0;
 }
 
-
+/* container */
 .container h1 {
     font-size: 5rem;
 }
 .container h2 {
-    font-size: 4rem;
-}
-.container h3 {
     font-size: 3rem;
 }
-.container p {
+.container h3 {
     font-size: 2rem;
 }
 
 .container {
-    display:table;
-    width:  100%;
+    width: 100%;
     height: 100%;
 }
 
 .left-container {
-    float: left;
-    width:      50%;
-    height:     100%;
-    margin:     0 auto;
+    text-align: center;
 }
 .right-container {
-    float: right;
-    width:      50%;
-    height:     100%;
-    margin:     0 auto;
+    text-align: center;
 }
 
-.left-container img {
-    width:  100%;
+.left-container img{
+   max-width: 100%;
 }
-.right-container img {
-    width:  100%;
+
+/* PC */
+@media (min-width: 900px) {
+  html{
+     font-size: 20px;
+  }
+  .left-container {
+      float: left;
+      width: 50%;
+      padding-right: 50px;
+      
+  }
+  .right-container {
+      float: left;
+      width: 50%;
+      padding-right: 50px;
+  }
 }
+
 
